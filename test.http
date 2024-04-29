@@ -1,0 +1,17 @@
+GET http://localhost:3000/cars/api/cars
+
+###
+
+POST http://localhost:3000/cars
+Content-Type: application/json
+
+{
+  "license_plate_number": "IOA-667",
+  "brand": "Suzuki",
+  "model": "Hungary",
+  "daily_cost": 24000
+}
+
+###
+
+POST http://localhost:3000/cars/api/cars/3/rent
